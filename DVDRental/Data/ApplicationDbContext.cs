@@ -14,6 +14,10 @@ namespace DVDRental.Data
         {
             modelBuilder.Entity<CastMember>()
                 .HasKey(C => new {C.DVDNumber, C.ActorNumber });
+
+            modelBuilder.Entity<DVDCategory>()
+            .Property("AgeRestricted")
+            .HasDefaultValue(false);
         }
 
         public DbSet<Actor> Actor { get; set; }

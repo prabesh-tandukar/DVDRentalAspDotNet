@@ -11,7 +11,7 @@ namespace DVDRental.Models
         [Key]
         public long CategoryNumber { get; set; }
         public string CategoryDescription  { get; set; }
-        public int AgeRestricted { get; set; }
+        public bool? AgeRestricted { get; set; }
 
     }
 }

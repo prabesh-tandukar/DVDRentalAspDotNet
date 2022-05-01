@@ -64,8 +64,10 @@ namespace DVDRental.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("CategoryNumber"), 1L, 1);
 
-                    b.Property<int>("AgeRestricted")
-                        .HasColumnType("int");
+                    b.Property<bool?>("AgeRestricted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
                     b.Property<string>("CategoryDescription")
                         .IsRequired()

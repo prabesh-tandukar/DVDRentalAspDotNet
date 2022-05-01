@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VBHGEwoZ10EP3vCN4t6Irlt8dVYrhZCo3VvVDVvXVm0=",
+  "Hash": "d6F5ikcGLw3wL52GzM1ID/ZCtPxhMsuJsCNjZ5gxHns=",
   "Source": "DVDRental",
   "BasePath": "_content/DVDRental",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\workspace\\DVDRentalAspDotNet\\DVDRental\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DVDRental.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\workspace\\DVDRentalAspDotNet\\DVDRental\\wwwroot\\css\\bootswatchTheme.css",
+      "SourceId": "DVDRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\workspace\\DVDRentalAspDotNet\\DVDRental\\wwwroot\\",
+      "BasePath": "_content/DVDRental",
+      "RelativePath": "css/bootswatchTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatchTheme.css"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\workspace\\DVDRentalAspDotNet\\DVDRental\\wwwroot\\css\\site.css",
