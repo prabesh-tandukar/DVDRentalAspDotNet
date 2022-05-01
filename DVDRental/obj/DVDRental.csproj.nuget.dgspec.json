@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tandu\\source\\repos\\DVDRental\\DVDRental\\DVDRental.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\workspace\\DVDRentalAspDotNet\\DVDRental\\DVDRental.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tandu\\source\\repos\\DVDRental\\DVDRental\\DVDRental.csproj": {
+    "C:\\Users\\Admin\\Desktop\\workspace\\DVDRentalAspDotNet\\DVDRental\\DVDRental.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tandu\\source\\repos\\DVDRental\\DVDRental\\DVDRental.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\workspace\\DVDRentalAspDotNet\\DVDRental\\DVDRental.csproj",
         "projectName": "DVDRental",
-        "projectPath": "C:\\Users\\tandu\\source\\repos\\DVDRental\\DVDRental\\DVDRental.csproj",
-        "packagesPath": "C:\\Users\\tandu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tandu\\source\\repos\\DVDRental\\DVDRental\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\workspace\\DVDRentalAspDotNet\\DVDRental\\DVDRental.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\workspace\\DVDRentalAspDotNet\\DVDRental\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tandu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,6 +47,26 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.3, )"
             }
           },
           "imports": [
@@ -67,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

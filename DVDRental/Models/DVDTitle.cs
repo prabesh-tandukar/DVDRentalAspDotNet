@@ -14,7 +14,7 @@ namespace DVDRental.Models
         public long StudioNumber    { get; set; }
         public long ProducerNumber { get; set; }
         public string DVDtitle { get; set; }
-        public DateOnly DateReleased { get; set; }
+        public DateTime DateReleased { get; set; }
         public string StandardCharge { get; set; }
         public string PenaltyCharge { get; set; }
 

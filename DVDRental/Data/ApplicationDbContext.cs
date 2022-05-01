@@ -1,13 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using DVDRental.Models;
 
-namespace DVDRental.Models
+namespace DVDRental.Data
 {
-    public class DataBaseContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
+        //constructore
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        {
+        }
+
         public DbSet<Actor> Actor { get; set; }
         public DbSet<CastMember> CastMember { get; set; }
         public DbSet<DVDTitle> DVDTitle { get; set; }
@@ -20,7 +22,5 @@ namespace DVDRental.Models
         public DbSet<Member> Member { get; set; }
         public DbSet<MembershipCategory> MembershipCategory { get; set; }
         public DbSet<User> User { get; set; }
-
-
     }
 }
