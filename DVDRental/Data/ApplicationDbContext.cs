@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using DVDRental.Models;
 
+
 namespace DVDRental.Data
 {
     public class ApplicationDbContext : DbContext
@@ -8,6 +9,11 @@ namespace DVDRental.Data
         //constructore
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<CastMember>()
+                .HasKey(C => new {C.DVDNumber, C.ActorNumber });
         }
 
         public DbSet<Actor> Actor { get; set; }

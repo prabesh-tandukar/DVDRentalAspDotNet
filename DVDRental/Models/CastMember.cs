@@ -9,10 +9,10 @@ namespace DVDRental.Models
 {
     public class CastMember
     {
-        [Key]
+        [Required]
         [ForeignKey("DVDNumber")]
         public long DVDNumber { get; set; }
-        [Key]
+        [Required]
         [ForeignKey("ActorNumber")]
         public long ActorNumber { get; set; }   
 
